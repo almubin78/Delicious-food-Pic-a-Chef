@@ -1,0 +1,155 @@
+[
+    {
+      "_id": "647052dcab487dadf8a904f6",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAz6qYHviUGPpFaB4epfAi1DK_yNrEYPrV0BnaosKTBA&s",
+      "chefName": "Nusret Gokce",
+      "liked":"120",
+      "description": "Its nearly impossible to get a reservation at chef-restaurateur Nusret Gökçes new Nusr-Et steakhouse in New York City. Better known around the world by the saline moniker “Salt Bae,” Gökçe is collecting headlines, leaving dining critics in the dust, and packing his newest restaurant full of fans, thanks to his business acumen and the buzz only successful social media positioning can bring. Of course, diners are not really coming for the steak; its probably safer to assume theyre drawn to the theatrics of seasoning.",
+      "experience": "2 year",
+      "recipes": [
+        {
+          "id": 1,
+          "recipesName": "Spiny Lobster",
+          "method": "If you ask any person who is the most famous chef in Turkey, everyone knows the answer-Nusret Gokce. He is not only an Instagram star, but also a star of Turkey. Thanks to him, the attendance of restaurants in Istanbul, when he works here, reaches the point when people wait in line for an hour just to try the dish of the Instagram star."
+        },
+        {
+          "id": 2,
+          "recipesName": "",
+          "method": "Veniam aute tempor mollit eu fugiat excepteur non nostrud consectetur qui. Enim velit culpa ea veniam ex magna deserunt in occaecat ut ipsum pariatur elit pariatur. Eu sit pariatur ad ipsum. Sunt do et excepteur id amet. Lorem deserunt et ea fugiat labore ullamco occaecat occaecat ex. Deserunt ea veniam sit ea est. Labore velit magna commodo labore mollit amet in amet aute veniam nulla cupidatat commodo ea.\r\n"
+        },
+        {
+          "id": 3,
+          "recipesName": "Donovan Burnett",
+          "method": "Veniam aute tempor mollit eu fugiat excepteur non nostrud consectetur qui. Enim velit culpa ea veniam ex magna deserunt in occaecat ut ipsum pariatur elit pariatur. Eu sit pariatur ad ipsum. Sunt do et excepteur id amet. Lorem deserunt et ea fugiat labore ullamco occaecat occaecat ex. Deserunt ea veniam sit ea est. Labore velit magna commodo labore mollit amet in amet aute veniam nulla cupidatat commodo ea.\r\n"
+        }
+      ]
+    },
+    {
+      "_id": "647052dcab487dadf8a904f6",
+      "picture": "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/09/07/142488.jpg",
+      "chefName": "Burak Özdemir",
+      "liked":"240",
+      "description": "He says, 'I was born in the city of “Hatay”, the junction point of many civilizations and cultures therefore a meeting point of many different cuisines throughout the ages. Many years ago, my grandfather, who was a kunefe master and my father who operated the Zeytindal Restaurant in Sisli, Istanbul; they have become talented individuals of this culinary heritage and they have opened their restaurant. When I was 13 years old, I started working at my fathers restaurant.'",
+      "experience": "3 year",
+      "recipes": [
+        {
+          "id": 1,
+          "recipesName": "Baked Lamb Shank",
+          "reci-img":"https://heytripster.com/wp-content/uploads/2020/05/baked-lamb-shank.jpg",
+          "method": "Made from lamb meat and cooked in traditional ovens, baked lamb shank is the softest meat dish you can eat. Because it is cooked slowly and wrapped with folio, every part is cooked the same inside and out. The spices used and vegetables served along in this meal, you can understand why this young chef is popular."
+        },
+        {
+          "id": 2,
+          "recipesName": "Stuffed Ribs",
+          "reci-img":"https://heytripster.com/wp-content/uploads/2020/05/stuffed-ribs-1.jpg",
+          "method": "This meal is hard to cook but deserves all the attention and time it needs. Extra softened meat with special sauce outside and rice on the inside; you can understand why this dish is so popular."
+        },
+        {
+          "id": 3,
+          "recipesName": "Baked Steak with Salt",
+          "reci-img":"https://heytripster.com/wp-content/uploads/2020/05/stuffed-ribs-1.jpg",
+          "method": "Prepared with sea salt and black pepper, it is maybe the most ordered meal. Served as sliced and made with salted and spices steak can be made in your own kitchen easily, but at the hands of an expert chef, it transforms into something special and an unbelievable experience."
+        }
+      ]
+    },
+    {
+      "_id": "647052dcab487dadf8a904f6",
+      "picture": "https://www.sbs.com.au/food/sites/sbs.com.au.food/files/styles/full/public/somer-sivrioglu.jpg?itok=dYrgm5Vy",
+      "chefName": "Somer Sivrioglu",
+      "liked":"120",
+      "description": "If youre attuned to Turkish flavours and a fan of SBS Food, chances are youve come across the smiling face  and tantalising recipes  of Somer Sivrioglu. Since opening his restaurant Efendy 10 years ago, the Turkish chef has been enchanting diners and home cooks with the recipes of his homeland. Somer schooled us in kebabs on Food Safari Fire, taught how to make muhammara in Feast magazine, and shared his Antep-style pistachio baklava on the original Destination Flavour. While his passion for Turkish cuisine remains as radiant as ever, a few things have changed... including the baklava. ",
+      "experience": "2 year",
+      "recipes": [
+        {
+          "id": 1,
+          "recipesName": "Jane Lambert",
+          "method": "Veniam aute tempor mollit eu fugiat excepteur non nostrud consectetur qui. Enim velit culpa ea veniam ex magna deserunt in occaecat ut ipsum pariatur elit pariatur. Eu sit pariatur ad ipsum. Sunt do et excepteur id amet. Lorem deserunt et ea fugiat labore ullamco occaecat occaecat ex. Deserunt ea veniam sit ea est. Labore velit magna commodo labore mollit amet in amet aute veniam nulla cupidatat commodo ea.\r\n"
+        },
+        {
+          "id": 2,
+          "recipesName": "Jennie Vaughn",
+          "about": "Veniam aute tempor mollit eu fugiat excepteur non nostrud consectetur qui. Enim velit culpa ea veniam ex magna deserunt in occaecat ut ipsum pariatur elit pariatur. Eu sit pariatur ad ipsum. Sunt do et excepteur id amet. Lorem deserunt et ea fugiat labore ullamco occaecat occaecat ex. Deserunt ea veniam sit ea est. Labore velit magna commodo labore mollit amet in amet aute veniam nulla cupidatat commodo ea.\r\n"
+        },
+        {
+          "id": 3,
+          "recipesName": "Donovan Burnett",
+          "about": "Veniam aute tempor mollit eu fugiat excepteur non nostrud consectetur qui. Enim velit culpa ea veniam ex magna deserunt in occaecat ut ipsum pariatur elit pariatur. Eu sit pariatur ad ipsum. Sunt do et excepteur id amet. Lorem deserunt et ea fugiat labore ullamco occaecat occaecat ex. Deserunt ea veniam sit ea est. Labore velit magna commodo labore mollit amet in amet aute veniam nulla cupidatat commodo ea.\r\n"
+        }
+      ]
+    },
+    {
+      "_id": "647052dcab487dadf8a904f6",
+      "picture": "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/02/22/thumbs/800x531/95160.jpg?v=1614001829",
+      "chefName": "Michelin",
+      "liked":"320",
+      "description": "It's a shame that it’s only kebabs that are seen to represent our cuisine. Our cuisine is so varied and so different from region to region, stated Ahmet Dede. While inarguably distinctive, Turkish cuisine has “influenced and been influenced by the Middle East, Asia and Europe, according to the 35-year-old chef, who last month won his second Michelin star, the prestigious and coveted mark of quality in the international restaurant world.",
+      "experience": "4.5 year",
+      "recipes": [
+        {
+          "id": 1,
+          "recipesName": "Jane Lambert",
+          "about": "Veniam aute tempor mollit eu fugiat excepteur non nostrud consectetur qui. Enim velit culpa ea veniam ex magna deserunt in occaecat ut ipsum pariatur elit pariatur. Eu sit pariatur ad ipsum. Sunt do et excepteur id amet. Lorem deserunt et ea fugiat labore ullamco occaecat occaecat ex. Deserunt ea veniam sit ea est. Labore velit magna commodo labore mollit amet in amet aute veniam nulla cupidatat commodo ea.\r\n"
+        },
+        {
+          "id": 2,
+          "recipesName": "Jennie Vaughn",
+          "about": "Veniam aute tempor mollit eu fugiat excepteur non nostrud consectetur qui. Enim velit culpa ea veniam ex magna deserunt in occaecat ut ipsum pariatur elit pariatur. Eu sit pariatur ad ipsum. Sunt do et excepteur id amet. Lorem deserunt et ea fugiat labore ullamco occaecat occaecat ex. Deserunt ea veniam sit ea est. Labore velit magna commodo labore mollit amet in amet aute veniam nulla cupidatat commodo ea.\r\n"
+        },
+        {
+          "id": 3,
+          "recipesName": "Donovan Burnett",
+          "about": "Veniam aute tempor mollit eu fugiat excepteur non nostrud consectetur qui. Enim velit culpa ea veniam ex magna deserunt in occaecat ut ipsum pariatur elit pariatur. Eu sit pariatur ad ipsum. Sunt do et excepteur id amet. Lorem deserunt et ea fugiat labore ullamco occaecat occaecat ex. Deserunt ea veniam sit ea est. Labore velit magna commodo labore mollit amet in amet aute veniam nulla cupidatat commodo ea.\r\n"
+        }
+      ]
+    },
+    {
+      "_id": "647052dcab487dadf8a904f6",
+      "picture": "http://placehold.it/32x32",
+      "chefName": "Turkish Chefs[join]",
+      "liked":"120",
+      "description": "Veniam aute tempor mollit eu fugiat excepteur non nostrud consectetur qui. Enim velit culpa ea veniam ex magna deserunt in occaecat ut ipsum pariatur elit pariatur. Eu sit pariatur ad ipsum. Sunt do et excepteur id amet. Lorem deserunt et ea fugiat labore ullamco occaecat occaecat ex. Deserunt ea veniam sit ea est. Labore velit magna commodo labore mollit amet in amet aute veniam nulla cupidatat commodo ea.\r\n",
+      "experience": "1.5 year",
+      "recipes": [
+        {
+          "id": 1,
+          "recipesName": "Boiled Veal Shank in Roasted Foil",
+          "about": "Veniam aute tempor mollit eu fugiat excepteur non nostrud consectetur qui. Enim velit culpa ea veniam ex magna deserunt in occaecat ut ipsum pariatur elit pariatur. Eu sit pariatur ad ipsum. Sunt do et excepteur id amet. Lorem deserunt et ea fugiat labore ullamco occaecat occaecat ex. Deserunt ea veniam sit ea est. Labore velit magna commodo labore mollit amet in amet aute veniam nulla cupidatat commodo ea.\r\n"
+        },
+        {
+          "id": 2,
+          "recipesName": "french fries",
+          "about": "Veniam aute tempor mollit eu fugiat excepteur non nostrud consectetur qui. Enim velit culpa ea veniam ex magna deserunt in occaecat ut ipsum pariatur elit pariatur. Eu sit pariatur ad ipsum. Sunt do et excepteur id amet. Lorem deserunt et ea fugiat labore ullamco occaecat occaecat ex. Deserunt ea veniam sit ea est. Labore velit magna commodo labore mollit amet in amet aute veniam nulla cupidatat commodo ea.\r\n"
+        },
+        {
+          "id": 3,
+          "recipesName": "cutting salmon",
+          "about": "Veniam aute tempor mollit eu fugiat excepteur non nostrud consectetur qui. Enim velit culpa ea veniam ex magna deserunt in occaecat ut ipsum pariatur elit pariatur. Eu sit pariatur ad ipsum. Sunt do et excepteur id amet. Lorem deserunt et ea fugiat labore ullamco occaecat occaecat ex. Deserunt ea veniam sit ea est. Labore velit magna commodo labore mollit amet in amet aute veniam nulla cupidatat commodo ea.\r\n"
+        }
+      ]
+    },
+    {
+      "_id": "647052dcab487dadf8a904f6",
+      "picture": "https://cdn.vox-cdn.com/thumbor/UBPtBtj0_kAfYmQrXQlS992tsfA=/0x0:2500x1607/920x613/filters:focal(1050x604:1450x1004):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/61581333/musa_chef.0.jpg",
+      "chefName": "Musa Dağdeviren",
+      "liked":"120",
+      "description": "Musa Dağdeviren is a Turkish chef and owner of Çiya Kebap and Çiya Sofrasi on the Asian side of the Bosphorus Strait in Istanbul. Dağdeviren has been an influential force in documenting and recording regional cookery in villages throughout Turkey. The dishes are then showcased on the menu at Çiya Sofrasi and in magazines and books published through Çiya Publications — a publishing house founded by his wife Zeynep Dağdeviren. In addition to his work as a chef, Musa Dağdeviren also founded the Çiya Foundation to train young culinary students in traditional folk cooking styles.",
+      "experience": "1 year",
+      "recipes": [
+        {
+          "id": 1,
+          "recipesName": "Jane Lambert",
+          "about": "Veniam aute tempor mollit eu fugiat excepteur non nostrud consectetur qui. Enim velit culpa ea veniam ex magna deserunt in occaecat ut ipsum pariatur elit pariatur. Eu sit pariatur ad ipsum. Sunt do et excepteur id amet. Lorem deserunt et ea fugiat labore ullamco occaecat occaecat ex. Deserunt ea veniam sit ea est. Labore velit magna commodo labore mollit amet in amet aute veniam nulla cupidatat commodo ea.\r\n"
+        },
+        {
+          "id": 2,
+          "recipesName": "Jennie Vaughn",
+          "about": "Veniam aute tempor mollit eu fugiat excepteur non nostrud consectetur qui. Enim velit culpa ea veniam ex magna deserunt in occaecat ut ipsum pariatur elit pariatur. Eu sit pariatur ad ipsum. Sunt do et excepteur id amet. Lorem deserunt et ea fugiat labore ullamco occaecat occaecat ex. Deserunt ea veniam sit ea est. Labore velit magna commodo labore mollit amet in amet aute veniam nulla cupidatat commodo ea.\r\n"
+        },
+        {
+          "id": 3,
+          "recipesName": "Donovan Burnett",
+          "about": "Veniam aute tempor mollit eu fugiat excepteur non nostrud consectetur qui. Enim velit culpa ea veniam ex magna deserunt in occaecat ut ipsum pariatur elit pariatur. Eu sit pariatur ad ipsum. Sunt do et excepteur id amet. Lorem deserunt et ea fugiat labore ullamco occaecat occaecat ex. Deserunt ea veniam sit ea est. Labore velit magna commodo labore mollit amet in amet aute veniam nulla cupidatat commodo ea.\r\n"
+        }
+      ]
+    }
+  ]

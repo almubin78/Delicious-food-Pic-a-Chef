@@ -1,19 +1,12 @@
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
+import router from './router/router';
 
 function App() {
-  const handlePost = () =>{
-    const user = {
-      name:'almubin',job:'learning web development'
-    }
-    fetch('http://localhost:5000/comment',{
-      method:'POST',
-      headers:{'content-type':'application/json'},
-      body:JSON.stringify(user)
-    })
-  }
+
   return (
-    <div className="App">
-        <button onClick={handlePost}>post</button>
+    <div className="">
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
