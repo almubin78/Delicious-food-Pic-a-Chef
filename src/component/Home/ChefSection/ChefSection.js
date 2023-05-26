@@ -9,7 +9,7 @@ const ChefSection = () => {
         .then(data=>setSefs(data));
     },[])
     return (
-        <div >
+        <div className='chefContainer'>
             {
                 chefs.map(chef=><ChefCard
                     key={chef._id}
