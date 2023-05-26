@@ -1,4 +1,4 @@
-// 
+// google mail (eitate.den)
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {

@@ -2,7 +2,7 @@
 
 ## installed packages
 * react-router-dom
-* firebase
+* firebase(eitate.den)
 
 ### firebase mail: eitate
 * assignment b-7-10
