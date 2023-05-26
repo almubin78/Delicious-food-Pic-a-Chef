@@ -1,41 +1,48 @@
-import React from 'react';
+import React, { useState } from 'react';
+import './register.css'
+import { useForm } from 'react-hook-form';
+import { Link } from 'react-router-dom';
 
 const Register = () => {
-    return (
-        <div className='h-[800px] flex justify-center items-center'>
-            <div className='w-96 p-7'>
-                <h2 className='text-xl text-center'>Sign Up</h2>
-                <form onSubmit={handleSubmit(handleSignUp)}>
+    const { register, handleSubmit, formState: { errors }, } = useForm();
+    const [signUpError,setSignUpError] = useState('');
+    const handleSignUp = data =>{
 
-                    <div className="form-control w-full max-w-xs">
+    }
+    return (
+        <div className='full-form'>
+                <h2 className=''>Sign Up</h2>
+                <form className='form' onSubmit={handleSubmit(handleSignUp)}>
+
+                    <div className="">
                         <label className="label"> <span className="label-text">Name</span></label>
                         <input type="text" {...register("name", {
                             required: "Name is Required"
-                        })} className="input input-bordered w-full max-w-xs" />
+                        })} className="" />
                         {errors.name && <p className='text-red-500'>{errors.name.message}</p>}
                     </div>
 
-                    <div className="form-control w-full max-w-xs">
+                    <div className="">
                         <label className="label"> <span className="label-text">Email</span></label>
                         <input type="email" {...register("email", {
                             required: true
-                        })} className="input input-bordered w-full max-w-xs" />
+                        })} className="" />
                         {errors.email && <p className='text-red-500'>{errors.email.message}</p>}
                     </div>
 
-                    <div className="form-control w-full max-w-xs">
+                    <div className="">
                         <label className="label"> <span className="label-text">Password (minimum one uppercase and a number)</span></label>
                         <input type="password" {...register("password", {
                             required: "Password is required",
                             minLength: { value: 6, message: "Password must be 6 characters long" },
                             // pattern: { value: /(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])/, message: 'Password must have uppercase, number and special characters' }
                             pattern: { value: /(?=.*[A-Z])(?=.*[0-9])/, message: 'Password must have one uppercase and a number' }
-                        })} className="input input-bordered w-full max-w-xs" />
+                        })} className="" />
                         {errors.password && <p className='text-red-500'>{errors.password.message}</p>}
                     </div>
-                    <div className="form-control w-full max-w-xs">
+                    <div className="">
                         <label className="label"> <span className="label-text">Choose Your Class</span></label>
-                        <select {...register('classDetail')} className="input input-bordered w-full max-w-xs">
+                        <select {...register('classDetail')} className="">
                             <option value="nine">Class Nine</option>
                             <option value="ten">Class Ten</option>
                             <option value="interFirst">Inter First Year</option>
@@ -43,15 +50,15 @@ const Register = () => {
                         </select>
                         {errors.classDetail && <p className='text-red-500'>{errors.classDetail}</p>}
                     </div>
-                    <div className="form-control w-full max-w-xs">
+                    <div className="">
                         <label className="label"> <span className="label-text">Choose Your Subject</span></label>
-                        <select {...register('subject')} className="input input-bordered w-full max-w-xs">
+                        <select {...register('subject')} className="">
                             <option value="Physics">Physics</option>
                             <option value="ICT">ICT</option>
                         </select>
                         {errors.subject && <p className='text-red-500'>{errors.subject}</p>}
                     </div>
-                    <div className="form-control w-full max-w-xs">
+                    <div className="">
                         <label className="label"> <span className="label-text">Upload Your Image</span></label>
                         <input type="file" {...register('myImage')} />
                         {errors.myImage && <p className='text-red-500'>{errors.myImage}</p>}
@@ -68,8 +75,6 @@ const Register = () => {
                 <button className='btn btn-outline w-full'>CONTINUE WITH GOOGLE</button>
 
             </div>
-        </div>
-    );
-};
+)};
 
 export default Register;
