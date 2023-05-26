@@ -2,7 +2,7 @@ import React from 'react';
 
 const ChefCard = ({ chef }) => {
     const { chefName, picture, experience, liked, description, recipes } = chef;
-    console.log(recipes);
+    // console.log(recipes);
     return (
         <div className='card' style={{ border: '2px solid' }}>
             <img style={{ width: '100%' }} src={picture} alt="" />
