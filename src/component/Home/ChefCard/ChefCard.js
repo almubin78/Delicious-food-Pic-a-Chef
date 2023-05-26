@@ -4,7 +4,7 @@ const ChefCard = ({ chef }) => {
     const { chefName, picture, experience, liked, description, recipes } = chef;
     // console.log(recipes);
     return (
-        <div className='card' style={{ border: '2px solid' }}>
+        <div className='card'>
             <img style={{ width: '100%' }} src={picture} alt="" />
             <div className='text-section'>
                 <p>Name: {chefName}</p>

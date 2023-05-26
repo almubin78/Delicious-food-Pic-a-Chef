@@ -7,7 +7,7 @@ const Register = () => {
     const { register, handleSubmit, formState: { errors }, } = useForm();
     const [signUpError,setSignUpError] = useState('');
     const handleSignUp = data =>{
-
+        console.log(data);
     }
     return (
         <div className='full-form'>
@@ -36,19 +36,9 @@ const Register = () => {
                             required: "Password is required",
                             minLength: { value: 6, message: "Password must be 6 characters long" },
                             // pattern: { value: /(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])/, message: 'Password must have uppercase, number and special characters' }
-                            pattern: { value: /(?=.*[A-Z])(?=.*[0-9])/, message: 'Password must have one uppercase and a number' }
+                            pattern: { value: /(?=.*[0-9])/, message: 'Password must have one uppercase and a number' }
                         })} className="" />
                         {errors.password && <p className='text-red-500'>{errors.password.message}</p>}
-                    </div>
-                    <div className="">
-                        <label className="label"> <span className="label-text">Choose Your Class</span></label>
-                        <select {...register('classDetail')} className="">
-                            <option value="nine">Class Nine</option>
-                            <option value="ten">Class Ten</option>
-                            <option value="interFirst">Inter First Year</option>
-                            <option value="interSecond">Inter Second Year</option>
-                        </select>
-                        {errors.classDetail && <p className='text-red-500'>{errors.classDetail}</p>}
                     </div>
                     <div className="">
                         <label className="label"> <span className="label-text">Choose Your Subject</span></label>
