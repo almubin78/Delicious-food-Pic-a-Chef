@@ -1,3 +1,8 @@
+/* this container will show every card */
+.chefContainer{
+  display: grid;
+  padding:30px; 
+}
 .card{
   border-radius: 10px;
   box-shadow: 10px 10px;
@@ -26,42 +31,4 @@ button{
   text-shadow: 2px 2px;
   font-size: 20px;
 }
-/*  */
-.chefContainer{
-  display: grid;
-  padding:30px; 
-}
-/* media query */
-@media only screen and (max-width: 600px) {
-  .chefContainer{
-    padding:10%;
-    grid-template-columns: 1fr  ;
-  }
-  .card{
-    margin-top: 20px;
-  }
-  
-}
-@media only screen and (min-width: 600px) {
-  .chefContainer{
-    display:grid;
-    gap:25px;
-    grid-template-columns: 1fr 1fr;
-  }
-  
-}
-@media only screen and (min-width: 900px) {
-  .chefContainer{
-    display:grid;
-    
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  
-}
-@media only screen and (min-width: 1200px) {
-  .chefContainer{
-    gap:50px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-  
-}
+
