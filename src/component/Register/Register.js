@@ -11,8 +11,8 @@ const Register = () => {
     }
     return (
         <div className='full-form container mx-auto w-75 align-center shadow p-4 m-4'>
-            <h2 className=''>Sign Up</h2>
-            <form className='form' onSubmit={handleSubmit(handleSignUp)}>
+            <h2 className='text-center'>Sign Up</h2> <hr />
+            <form className='form w-75 mx-auto' onSubmit={handleSubmit(handleSignUp)}>
 
                 <div className="">
                     <label className="label"> <span className="label-text">Name</span></label>
@@ -47,17 +47,18 @@ const Register = () => {
                     {errors.myImage && <p className='text-red-500'>{errors.myImage}</p>}
                 </div>
 
-                <input className='btn btn-warning w-50 mt-4 mx-auto' value="Sign Up" type="submit" />
+                <input className='text-white fs-4 btn btn-warning w-50 mt-4 mx-auto' value="Sign Up" type="submit" />
                 {signUpError && <p className='text-red-600'>{signUpError}</p>}
 
             </form>
 
-            <p>Already have an account <Link className='text-warning text-secondary' to="/login">Please Login</Link></p>
-            <div className="divider">OR</div>
 
-            <div className=' form'>
-            <label className="label"> <span className="label-text">Register with Google</span></label>
-                <button className='btn btn-warning w-50 mt-4 mb-3 mx-auto'>GOOGLE </button>
+            <div className=' form text-center w-75 mx-auto'>
+                <p className='mt-2'>Already have an account? <br /> <Link className='text-warning text-secondary' to="/login">Please Login</Link></p>
+                <div className="divider">OR</div>
+                    <hr />
+                <label className="label"> <span className="label-text">Register with Google</span></label>
+                <button className='text-white fs-4 btn btn-warning mt-4 w-50 mb-3 mx-auto'>GOOGLE </button>
             </div>
 
         </div>
