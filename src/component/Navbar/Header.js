@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
-    const [user,setUser] = useState(false)
+    const [user,setUser] = useState(true)
     const headerInfo = {
         logo: 'https://i.ibb.co/vq4xzFB/logo-1-1.png', home: "Home", order: "Order NOw", register: "Register",login:'Login'
     }
     return (
-        <div className='navigation'>
+        <div className='navigation container p-3 h-100'>
             <div className='img-container'>
                 <img src={headerInfo.logo} alt="" />
             </div>
@@ -17,7 +17,7 @@ const Header = () => {
                 <NavLink to='contact'>{headerInfo.order}</NavLink>
                 
                 {
-                    user? 'img':<NavLink to='/login'>{headerInfo.login}</NavLink> 
+                    user? <NavLink to='/register'>{headerInfo.register}</NavLink> :'img'
                 }
             </div>
         </div>

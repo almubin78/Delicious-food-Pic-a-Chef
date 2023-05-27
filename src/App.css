@@ -7,6 +7,7 @@
   background-color: grey;
   position: sticky;
   top:0px;
+  z-index: 1;
 }
 .img-container{
   margin-left: 90px;
@@ -70,6 +71,7 @@
   bottom: -10px;
 }
 .text-section{
+  margin-top:20px;
   text-align: center;
   text-shadow: 2px 1px;
   font-size: 20px;

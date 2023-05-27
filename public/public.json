@@ -1,6 +1,6 @@
 [
     {
-      "_id": "647052dcab487dadf8a904f6",
+      "_id": "1",
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAz6qYHviUGPpFaB4epfAi1DK_yNrEYPrV0BnaosKTBA&s",
       "chefName": "Nusret Gokce",
       "liked":"120",
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "_id": "647052dcab487dadf8a904f6",
+      "_id": "2",
       "picture": "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/09/07/142488.jpg",
       "chefName": "Burak Özdemir",
       "liked":"240",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "_id": "647052dcab487dadf8a904f6",
+      "_id": "3",
       "picture": "https://www.sbs.com.au/food/sites/sbs.com.au.food/files/styles/full/public/somer-sivrioglu.jpg?itok=dYrgm5Vy",
       "chefName": "Somer Sivrioglu",
       "liked":"120",
@@ -87,7 +87,7 @@
       ]
     },
     {
-      "_id": "647052dcab487dadf8a904f6",
+      "_id": "4",
       "picture": "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/02/22/thumbs/800x531/95160.jpg?v=1614001829",
       "chefName": "Michelin",
       "liked":"320",
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "_id": "647052dcab487dadf8a904f6",
+      "_id": "5",
       "picture": "http://placehold.it/32x32",
       "chefName": "Turkish Chefs[join]",
       "liked":"120",
@@ -138,7 +138,7 @@
       ]
     },
     {
-      "_id": "647052dcab487dadf8a904f6",
+      "_id": "6",
       "picture": "https://cdn.vox-cdn.com/thumbor/UBPtBtj0_kAfYmQrXQlS992tsfA=/0x0:2500x1607/920x613/filters:focal(1050x604:1450x1004):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/61581333/musa_chef.0.jpg",
       "chefName": "Musa Dağdeviren",
       "liked":"120",
