@@ -1,13 +1,25 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { VarContext } from '../../AuthProvider/AuthProvider';
 
 const Login = () => {
     const { register, handleSubmit, formState: { errors }, } = useForm();
     const [signInError,setSignInError] = useState('');
+    const [userImg,setUserImg] = useState('');
+    const { loginWithEmailAndPass} = useContext(VarContext);
+    const go = useNavigate();
 
     const handleLogin = data =>{
-
+        loginWithEmailAndPass(data.email,data.password)
+        .then(res=>{
+            // const user = res.user;
+            // console.log('user from loginwith email and pass',user);
+            setUserImg(res.user.photoURL);
+            console.log('photo url::',userImg);
+            go('/')
+        })
+        .catch(err=>console.log(err.message));
     }
     return (
         <div className='full-form container mx-auto w-75 align-center shadow p-4 m-4'>

@@ -7,7 +7,7 @@ const ChefCard = ({ chef }) => {
     const { chefName, picture, experience, liked, description, recipes } = chef;
     const navigate = useNavigate();
     const param = useParams();
-    console.log(param);
+    // console.log(param);
     // console.log(recipes);
     const handleChef = id => {
         // console.log('ids',id);
@@ -16,8 +16,8 @@ const ChefCard = ({ chef }) => {
         for(const single of singleChefInfo){
            if(single._id === id){
                 setSingleObject(single)
-                console.log(singleObject.description);
-                console.log(typeof(singleObject));
+                // console.log(singleObject.description);
+                // console.log(typeof(singleObject));
            }
         }
         // navigate(`/details/${singleObject._id}`)
