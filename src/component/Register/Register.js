@@ -3,14 +3,45 @@ import './register.css'
 import { useForm } from 'react-hook-form';
 import { Link } from 'react-router-dom';
 import { VarContext } from '../../AuthProvider/AuthProvider';
+import { useQuery } from '@tanstack/react-query';
 
 const Register = () => {
     const { register, handleSubmit, formState: { errors }, } = useForm();
     const [signUpError, setSignUpError] = useState('');
     const { registerWithEmailAndPass, updateUser } = useContext(VarContext);
 
-    const handleSignUp = data => {
-        console.log(data);
+    const imgHostKey = process.env.REACT_APP_IMAGE_BB_KEY;
+    console.log('imgHostKey',imgHostKey);
+
+
+    const { data: kala, isLoading } = useQuery({
+        queryKey: ['specialty'],
+        queryFn: async () => {
+            const res = await fetch('http://localhost:5000/allUser');
+            const data = await res.json();
+            // console.log('kala and loading',kala,isLoading);
+            return data;
+        }
+    });
+    const handleSignUp = data => {    
+        
+        const image = data.myImage[0];
+        const formData = new FormData();
+        formData.append('image',image);
+        const url = `https://api.imgbb.com/1/upload?key=${imgHostKey}`;
+        fetch(url,{
+            method:'POST',
+            body: formData
+        }).then(res => res.json())
+        .then(imgData => {
+            console.log('imgData',imgData);
+            if (imgData.success) {
+                // console.log('imgData.data.url',imgData.data.url);
+
+            }
+        })
+        /* firebase integration */
+
         registerWithEmailAndPass(data.email, data.password)
             .then(res => {
                 const user = res.user;
@@ -35,7 +66,7 @@ const Register = () => {
     }
     const saveUser = (name, email,img) => {
         const user = { name, email,img };
-        console.log('user from saveUser Functions', user);
+        // console.log('user from saveUser Functions', user);
         fetch('http://localhost:5000/newUser', {
             method: 'POST',
             headers: {
@@ -45,7 +76,7 @@ const Register = () => {
         })
             .then(res => res.json())
             .then(data => {
-                console.log('this data is from fetch then after post method', data);
+                // console.log('this data is from fetch then after post method', data);
                 // setCreatedUserEmail(email)
             })
     }
@@ -77,7 +108,7 @@ const Register = () => {
                         required: "Password is required",
                         minLength: { value: 6, message: "Password must be 6 characters long" },
                         // pattern: { value: /(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])/, message: 'Password must have uppercase, number and special characters' }
-                        pattern: { value: /(?=.*[0-9])/, message: 'Password must have one uppercase and a number' }
+                        pattern: { value: /(?=.*[0-9])/, message: 'Password must have at least 1 number' }
                     })} className="form-control" />
                     {errors.password && <p className='text-red-500'>{errors.password.message}</p>}
                 </div>

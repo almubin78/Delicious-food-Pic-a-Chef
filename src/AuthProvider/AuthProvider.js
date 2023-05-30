@@ -9,6 +9,7 @@ const auth = getAuth(app)
 
 //main function is started from here.... 
 const AuthProvider = ({children}) => {
+    const [user, setUser] = useState(null);
     // helping variable
     const [loading,setLoading] = useState(true);
 
@@ -33,7 +34,8 @@ const AuthProvider = ({children}) => {
         registerWithEmailAndPass,
         updateUser,
         loginWithEmailAndPass,
-        loading
+        loading,
+        user
     }
     return (
         <VarContext.Provider value={info}>
